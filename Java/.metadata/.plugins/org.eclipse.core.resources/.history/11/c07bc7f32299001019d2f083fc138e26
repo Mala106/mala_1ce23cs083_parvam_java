@@ -1,0 +1,11 @@
+package com.loops;
+
+public class EnhancedForLoop {
+	public static void main(String[] args) {
+		int [] arr = {266,451,458};
+		for (int a : arr) {
+			System.out.println(a + " ");
+				
+		}
+}
+}

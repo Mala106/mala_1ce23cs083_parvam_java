@@ -1,0 +1,15 @@
+package com.datatypes;
+
+public class PrimitiveTypes {
+	
+	public static void main(String[] args) {
+		int age = 25;
+		System.out.println("Your age is : "+age);
+		char sName = A;
+		System.out.println("Name is : "+sName);
+		byte bTemp = 2324;
+		System.out.println("Your temperature is : "+bTemp);
+		float piVal = 3.133;
+		System.out.println("The pi value is : "+piVal);
+	}
+}

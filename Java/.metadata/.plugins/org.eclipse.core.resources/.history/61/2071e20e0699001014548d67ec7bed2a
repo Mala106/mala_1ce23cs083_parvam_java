@@ -1,0 +1,22 @@
+package com.datatypes;
+
+public class PrimitiveTypes {
+	
+	public static void main(String[] args) {
+		
+		int age = 25;
+		System.out.println("Your age is : "+age);
+		
+		boolean isActive = true;
+		System.out.println("Answer : "+isActive);
+		
+		char gender = A;
+		System.out.println("Gender : "+gender);
+		
+		byte bTemp = 2324;
+		System.out.println("Your temperature is : "+bTemp);
+		
+		float marks = 3.133a;
+		System.out.println("Marks : "+marks);
+	}
+}

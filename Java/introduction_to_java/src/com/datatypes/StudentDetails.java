@@ -1,0 +1,34 @@
+package com.datatypes;
+
+import java.util.Scanner;
+
+public class StudentDetails {
+
+	    public static void main(String[] args) {
+	        
+	        Scanner scanner = new Scanner(System.in);
+
+	        System.out.println("Enter Student Details");
+	        System.out.print("Enter Student ID: ");
+	        int studentId = scanner.nextInt();
+	        scanner.nextLine(); 
+
+	        System.out.print("Enter Name: ");
+	        String name = scanner.nextLine();
+
+	        System.out.print("Enter Age: ");
+	        int age = scanner.nextInt();
+
+	        System.out.print("Enter Grade (A, B, C, etc.): ");
+	        char grade = scanner.next().charAt(0);
+	        
+	        scanner.close();
+
+	        System.out.println("\n--- Student Details ---");
+	        System.out.println("Student ID: " + studentId);
+	        System.out.println("Name: " + name);
+	        System.out.println("Age: " + age);
+	        System.out.println("Grade: " + grade);
+	    }
+}
+

@@ -1,0 +1,20 @@
+package com.datatypes;
+
+public class PrimitiveTypes {
+	//helloWorld -> variables or functions
+	// HelloWorld -> class or interface
+	// -> single line comment
+	/*
+	 * multi-line
+	 * comment
+	 */
+	// Primitive data types
+	public static void main(String[] args) {
+		//variables
+		int age = 25;
+		System.out.println("Your age is : "+age);
+		//byte, short, long, float, double, char, boolean
+		char age = 25;
+		System.out.println("Your age is : "+age);
+	}
+}
