@@ -30,4 +30,3 @@ public class EmployeeDetails {
 	        System.out.println("Salary: $" + String.format("%.2f", salary));
 	    }
 	}
-}
